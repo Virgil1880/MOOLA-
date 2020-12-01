@@ -1,6 +1,6 @@
 <?php
 // Reads the variables sent via POST
-$sessionId   = $_POST["*10330#"];  
+$sessionId   = $_POST["*10333#"];  
 $serviceCode = $_POST["*384*"];  
 $text = $_POST["text"];
 //This is the first menu 
