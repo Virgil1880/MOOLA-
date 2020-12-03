@@ -1,12 +1,13 @@
 <?php
-// Reads the variables sent via POST
+// Reads the variables sent via Post from heroku gateway
 $sessionId   = $_POST["*10333#"];  
 $serviceCode = $_POST["*384*"];  
+$phonenumber
 $text = $_POST["text"];
 //This is the first menu 
 if ( $text == "" ) {
 $response  = "CON Hi welcome, I can help you with Event Reservation \n";
-$response .= "1. Enter 1 to continue";
+$response .= "1. Enter 1 to continue";.$phoneNumber
 }
 // Menu for a user who selects '1' from the first menu
 // Will be brought to this second menu screen
